@@ -4,11 +4,14 @@
 #include <vector>
 
 // function declarations
+/* COMMENTTING OUT transformChar
 std::string transformChar(const char in);
+*/
 bool processCommandLine(const std::vector<std::string>& args,
                         bool& helpRequested, bool& versionRequested,
                         std::string& inputFile, std::string& outputFile);
 
+                        
 int main(int argc, char* argv[])
 {
     // Convert the command-line arguments into a more easily usable form
