@@ -3,6 +3,11 @@
 #include <string>
 #include <vector>
 
+
+// Project headers
+#include "TransformChar.hpp"
+
+
 // function declarations
 
 std::string transformChar(const char in);
