@@ -4,9 +4,9 @@
 #include <vector>
 
 // function declarations
-/* COMMENTTING OUT transformChar
+
 std::string transformChar(const char in);
-*/
+
 bool processCommandLine(const std::vector<std::string>& args,
                         bool& helpRequested, bool& versionRequested,
                         std::string& inputFile, std::string& outputFile);
@@ -149,6 +149,7 @@ std::string transformChar(const char inputChar)
 
     return inputText;
 }
+
 
 bool processCommandLine(const std::vector<std::string>& cmdLineArgs,
                         bool& helpRequested, bool& versionRequested,
